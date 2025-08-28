@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+body{
+    height: 100vh;
+    background-color: rgb(236, 234, 234);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: white;
+    height: 60vh;
+    width: 26vw;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 10px;
+}
+.screen{
+    overflow: hidden;
+    height: 60px;
+    border-radius: 50px;
+    width: 100vw;
+    margin: 10px 5px;
+    background-color: skyblue;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 17px;
+}
+.btn{
+    height: 60px;
+    border-radius: 50%;
+    width: 5vw;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(110, 109, 109);
+    background-color: rgb(203, 210, 236);
+    box-shadow: 0 0 4px gray;
+}
+.btn:nth-child(2){
+    background-color: white;
+}
+.btn:nth-child(3){
+    background-color: white;
+}
+.btn:nth-child(4){
+    background-color: white;
+}
+.btn:nth-child(20){
+    background-color: white;
+}
+.btn:nth-child(18){
+    background-color: white;
+}
+.btn:nth-child(5){
+    background-color: rgb(49, 47, 47);
+    color: white;
+}
+.btn:nth-child(9){
+    background-color: rgb(231, 68, 68);
+    color: white;
+    font-size: 35px;
+}
+.btn:nth-child(13){
+    background-color: rgb(33, 170, 224);
+    color: white;
+    font-size: 27px;
+}
+.btn:nth-child(17){
+    background-color: green;
+    color: white;
+    font-size: 30px;
+}
+.btn:nth-child(21){
+    background-color:orange;
+    color: white;
+    font-size: 30px;
+}
+@media screen and (max-width : 400px) {
+    .container{
+        width: 88vw;
+        height: 80vh;
+    }
+    .btn{
+        width: 60px;
+    }
+}
